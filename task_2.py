@@ -4,7 +4,7 @@ file_src = Path("cats.txt")
 
 def get_cats_info(file_src):
     try:
-        with open( file_src, 'r') as file:
+        with open(file_src, 'r') as file:
         lines = file.readlines()
         a=[]
         for line in lines:
